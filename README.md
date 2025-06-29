@@ -1,1 +1,1 @@
-# azure-course
+Azure Courses

@@ -1,0 +1,52 @@
+# Site settings
+title: "Azure Courses"
+description: "A collection of Azure learning projects and labs."
+baseurl: ""
+url: "https://your-github-username.github.io/Azure-Courses"
+
+# GitHub Pages and theme setup
+remote_theme: pages-themes/hacker@v0.2.0
+markdown: kramdown
+
+# Navigation and other configurations
+navbar:
+  - text: "首页"
+    url: "/README.md"
+  - text: "AZ-104-MicrosoftAzureAdministrator.zh-cn"
+    url: "/AZ-104-MicrosoftAzureAdministrator.zh-cn/"
+  - text: "AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.zh-cn"
+    url: "/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.zh-cn/"
+  - text: "AZ-900-Microsoft-Azure-Fundamentals"
+    url: "/AZ-900-Microsoft-Azure-Fundamentals/"
+  - text: "AZ400-DesigningandImplementingMicrosoftDevOpsSolutions.zh-cn"
+    url: "/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions.zh-cn/"
+  - text: "AZ500-AzureSecurityTechnologies"
+    url: "/AZ500-AzureSecurityTechnologies/"
+  - text: "PL-300-Microsoft-Power-BI-Data-Analyst.zh-cn"
+    url: "/PL-300-Microsoft-Power-BI-Data-Analyst.zh-cn/"
+  - text: "dp-300-database-administrator.zh-cn"
+    url: "/dp-300-database-administrator.zh-cn/"
+
+# Author settings
+author:
+  bio: "Azure 学习者与实践者。"
+
+# Pagination settings (optional)
+paginate: 5
+
+# Exclude specific files or directories from being processed
+exclude:
+  - gen_docs.py
+  - gen_jekyll_config.py
+
+# Jekyll plugins (optional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Your Name"
